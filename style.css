@@ -397,6 +397,7 @@ body {
     position: initial;
     transform: translateY(0);
     height: 60px;
+    width: 70px;
   }
   .catalog__items .item p {
     font-size: 14px;

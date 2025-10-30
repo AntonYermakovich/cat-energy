@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cat energy</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cat energy</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container container">
+        <picture class="header__logo">
+          <source
+            media="(min-width: 1024px)"
+            srcset="./assets/img/logo-desktop.png"
+          />
+          <source
+            media="(min-width: 769px)"
+            srcset="./assets/img/logo-tablet.png"
+          />
+          <img src="./assets/img/logo-mobile.png" alt="Самая маленькая" />
+        </picture>
+        <h2><span>Cat</span> energy</h2>
+        <ul class="header__menu menu">
+          <li class="menu__item">
+            <a href="#" class="menu__link menu__link_active">Главная</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Каталог продукции</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Подбор программы</a>
+          </li>
+        </ul>
+
+        <div class="header__icon">
+          <div class="burger"></div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section hero">
+      <div class="hero__content">
+        <div class="hero__container container">
+          <div class="hero__body">
+            <h1>Функциональное питание для котов</h1>
+            <p>Занялся собой? Займись котом!</p>
+            <img class="hero__picture" src="./assets/img/index-can.png" alt="index-can">
+            <button>Подобрать программу</button>
+          </div>
+        </div>
+      </div>
+      <div class="hero__img"></div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
 </html>

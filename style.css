@@ -396,7 +396,7 @@ body {
   .catalog__items .item__info img {
     position: initial;
     transform: translateY(0);
-    height: 75px;
+    height: 60px;
   }
   .catalog__items .item p {
     font-size: 14px;

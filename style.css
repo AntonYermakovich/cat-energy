@@ -707,7 +707,7 @@ body {
     min-height: 300px;
   }
   .live .slider__images {
-    max-width: 320px;
+    max-width: 300px;
     width: 100%;
   }
   .live .slider__range {
